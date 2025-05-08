@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #bef1f8, #ffffff);
+}
+
+/* Grid container */
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  justify-items: center;
+}
+
+.hero-container {
+  list-style: none;
+  margin: 1rem;
+  display: grid;
+  place-items: center;
+}
+
+/* Card style */
+.main_container {
+  display: grid;
+  grid-template-rows: auto auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 250px;
+}
+
+/* Poster styling */
+.poster-container {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Button container - flush with card */
+.ticket-container {
+  margin: 0;
+  padding: 0;
+}
+
+.ticket-buy {
+  background-color: #4dd0e1;
+  /* Light teal */
+  color: #ffffff;
+  border: none;
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+}
