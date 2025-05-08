@@ -31,6 +31,8 @@ JSON Server 🗃️ (for mock API)
 
 git clone https://github.com/Arnabdas123456/AXIOS-CURD-operation.git
 
+you can chcek out my project on JSON API https://myjsonapi.netlify.app/
+
 cd axios
 
 npm install
