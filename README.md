@@ -29,8 +29,6 @@ Axios 📡
 
 JSON Server 🗃️ (for mock API)
 
-you can chcek out my project on JSON API https://myjsonapi.netlify.app/
-
 cd axios
 
 npm install
